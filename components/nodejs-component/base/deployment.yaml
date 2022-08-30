@@ -11,7 +11,7 @@ metadata:
   name: nodejs-component
   namespace: e2e-demo-dd5561a5-14aa-4bdf-bf34-cd54713b825a
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app.kubernetes.io/instance: nodejs-component
